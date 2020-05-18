@@ -1,0 +1,49 @@
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+#main-heading {
+    font-size:10rem;
+    color: aquamarine;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3%;
+}
+
+.player1 {
+
+    font-size:4rem;
+    color: aquamarine;
+    font-family: 'Dancing Script', cursive;
+    padding-left:30%;
+    margin-top: 70px;
+}
+.player2 {
+
+    font-size:4rem;
+    color: aquamarine;
+    font-family: 'Dancing Script', cursive;
+    padding-right:30%;
+    margin-top: 70px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .player1 {
+
+        font-size:4rem;
+        color: aquamarine;
+        font-family: 'Dancing Script', cursive;
+        margin-top: 70px;
+        padding: 0;
+
+    }
+    .player2 {
+    
+        font-size:4rem;
+        color: aquamarine;
+        font-family: 'Dancing Script', cursive;
+        margin-top: 70px;
+        padding: 0;
+    }
+}
